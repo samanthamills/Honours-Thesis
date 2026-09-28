@@ -9,8 +9,16 @@ Used to determine what strains can be removed from phosphate source assays as th
 
 3. Binary Traits (All Phosphate Types)
 Creation of binary traits based on the results from aluminium, calcium and iron phosphate source assays
-Used on pyseer
+Used on Scoary and Pyseer
 
 4. BW Strain Closest Type Strain and ANI Value
 Determine what is the closest known type strain to each of the BW strain based on the IQTree3.0 Newick format of those strains (experimental BW and Azospirillum type strains)
 ANI values from FastANI, used to compare the genetic similarity of the two strains (BW and the best matched type strain)
+
+*** 5. Strain Trait Ranking - does the same??? remove this code?
+..
+
+5.  Overall Phosphate Phenotype
+Used to determine what a "high," "medium," and "low" overall phosphate solubilizer was.
+Data came from the "Raw_Phosphate_Results" file, ranked individually between traits and combined traits to create an overall ranking. 
+Only ranked the insoluble phosphate media results.
