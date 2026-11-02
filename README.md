@@ -1,5 +1,6 @@
 # Honours-Thesis
 R codes used for my honours thesis:
+_This excludes the codes required to make figures._
 
 1. PLaBAse Lvl 5 and 6 Gene Comparison
 Matrix to compare all strains with all genes (level 6) within the level 5 (phosphate solubilisation) PLaBAse output
