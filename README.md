@@ -15,10 +15,14 @@ Used on Scoary and Pyseer
 Determine what is the closest known type strain to each of the BW strain based on the IQTree3.0 Newick format of those strains (experimental BW and Azospirillum type strains)
 ANI values from FastANI, used to compare the genetic similarity of the two strains (BW and the best matched type strain)
 
-*** 5. Strain Trait Ranking - does the same??? remove this code?
-..
+5.  Phosphate Solubilisation Ranking
+Used to determine what a "high," "medium," and "low" overall phosphate solubilizer was, based on the indices for the insoluble phosphate medias.
+Data came from the "Raw_Phosphate_Results" file, ranked individually between traits and combined traits to create an overall ranking.  
 
-5.  Overall Phosphate Phenotype
-Used to determine what a "high," "medium," and "low" overall phosphate solubilizer was.
-Data came from the "Raw_Phosphate_Results" file, ranked individually between traits and combined traits to create an overall ranking. 
-Only ranked the insoluble phosphate media results.
+6/7. Normality Testing (Original and alternative medias)
+Determined what type of statistical analysis is required.
+Used "Raw_Phosphate_Results" file and carried out Shapiro-Wilk tests and normal Q-Q plots.
+
+8/9. Statistical Analysis (Original and alternative medias)
+Carries out normality testing within itself to determine what statistical analysis and post-hoc tests are required.
+Used "Raw_Phosphate_Results" file to read data for all media types.
