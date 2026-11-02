@@ -2,7 +2,7 @@
 R codes used for my honours thesis:
 _This excludes the codes required to make figures._
 
-1. PGPT-Pred Lvl 5 and 6 Gene Comparison (Section 2.5.1.2).
+1. PGPT-Pred Lvl 5 and 6 Gene Comparison (Section 2.5.1.2) <br>
 Matrix to compare all strains with all genes (level 6) within the level 5 (phosphate solubilisation) PLaBAse output
 
 3. PGPT-Pred Genetically Identical Strains (Section 2.5.1.2)
