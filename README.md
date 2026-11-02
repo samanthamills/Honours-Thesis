@@ -19,10 +19,10 @@ ANI values from FastANI, used to compare the genetic similarity of the two strai
 Used to determine what a "high," "medium," and "low" overall phosphate solubilizer was, based on the indices for the insoluble phosphate medias.
 Data came from the "Raw_Phosphate_Results" file, ranked individually between traits and combined traits to create an overall ranking.  
 
-  6/7. Normality Testing (Original and alternative medias)
+6. Normality Testing (Original and alternative medias)
 Determined what type of statistical analysis is required.
 Used "Raw_Phosphate_Results" file and carried out Shapiro-Wilk tests and normal Q-Q plots.
 
-  8/9. Statistical Analysis (Original and alternative medias)
+7. Statistical Analysis (Original and alternative medias)
 Carries out normality testing within itself to determine what statistical analysis and post-hoc tests are required.
 Used "Raw_Phosphate_Results" file to read data for all media types.
